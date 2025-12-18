@@ -1,2 +1,6 @@
 .env
 data/*.txt
+*.zip
+api/*.zip
+api/__pycache__
+venv

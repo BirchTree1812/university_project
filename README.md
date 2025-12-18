@@ -28,3 +28,13 @@ The datasets come from the following sources:
   + Good for skill graph construction
   + Requires internet connection to download(or does it?)
 
+# Instructions
+Navigate to this directory. Then run these commands:
++ cd api
++ pip install -r requirements.txt
++ export NEO4J_URI=bolt://localhost:7687
++ export NEO4J_USER=neo4j
++ export NEO4J_PASSWORD=neo4j
++ uvicorn app:app --reload
+
+Then go to website: `http://localhost:8000/docs`
